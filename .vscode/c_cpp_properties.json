@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/opt/ac-library",
+                "/opt/boost/gcc/include",
+                "/usr/include/eigen3",
+                "${workspaceFolder}/library/include"
+            ],
+            "defines": [
+                "LOCAL"
+            ],
+            "compilerPath": "/usr/bin/g++-12",
+            "cppStandard": "gnu++23",
+            "intelliSenseMode": "linux-gcc-arm64"
+        }
+    ],
+    "version": 4
+}

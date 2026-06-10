@@ -1,0 +1,14 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $workspaceRoot && sh run.sh $fileName",
+    },
+    "code-runner.customCommand": "cd $workspaceRoot && oj-bundle -I /opt/ac-library $fileName >submission.cpp 2>/dev/null",
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "c-cpp-flylint.clang.enable": false,
+    "c-cpp-flylint.cppcheck.enable": true,
+    "c-cpp-flylint.flawfinder.enable": false,
+    "c-cpp-flylint.pclintplus.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.lizard.enable": false,
+}
